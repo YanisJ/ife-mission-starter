@@ -12,11 +12,8 @@
   },
   "author": "Yanis",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YanisJ/ife-mission-starter/issues"
-  },
   "homepage": "https://github.com/YanisJ/ife-mission-starter#readme",
-  "devDependencies":{
-    "lite-server":"^2.1.0",
+  "dependencies": {
+    "lite-server":"^2.1.0"
   }
 }
