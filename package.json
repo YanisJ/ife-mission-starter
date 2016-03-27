@@ -3,17 +3,23 @@
   "version": "1.0.0",
   "description": "进行 IFE 任务搭建的基本框架",
   "main": "index.js",
-  "scripts": {
-    "start": "lite-server"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YanisJ/ife-mission-starter.git"
   },
-  "author": "Yanis",
+  "author": "yanis",
   "license": "ISC",
   "homepage": "https://github.com/YanisJ/ife-mission-starter#readme",
-  "dependencies": {
-    "lite-server":"^2.1.0"
+  "devDependencies": {
+    "gulp":"^3.9.1",
+    "gulp-clean-css":"^2.0.3",
+    "gulp-imagemin":"^2.4.0",
+    "gulp-watch":"^4.3.5",
+    "gulp-cache":"^0.4.3",
+    "gulp-jshint":"^2.0.0",
+    "gulp-uglyfly":"^1.4.2",
+    "gulp-rename":"1.2.2",
+    "browser-sync":"^2.11.2",
+    "del":"^2.2.0"
   }
 }
